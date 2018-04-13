@@ -4,7 +4,7 @@ module Github
   class Client
     module Contents
       def readme(repo)
-        contents repo, "readme"
+        content repo, "readme"
       end
 
       def content(repo, path)
